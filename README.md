@@ -8,11 +8,15 @@ A SimHub dashboard intended for Euro Truck Simulator 2 telemetry.
 
 * Download the [dash](ETS2Simple.simhubdash) file
 * Import the file into SimHub
-* ~Adjust the dashboard variable for Crawler gears, if your transmission has them, or use 0 if it does not.~ Crawler gears seems to be broken, still. Add it to the bug list.
+* Adjust the dashboard variables
+  * Crawler Gears: If your transmission uses crawler gears, put the number in here, otherwise put 0
+  * ShowPSI: Want a brake PSI meter? Say true here. Want it off, say false.
+  * ShowSteeringIndicator: true/false
+  * ShowEffeciency: true/false, show your fuel consumption on the dash.
 * Enjoy.
 
 
-## Dashboard screenshots
+## Dashboard screenshot
 
 ![Screenshot of dashboard](screenshot.png)
 
@@ -27,7 +31,7 @@ A SimHub dashboard intended for Euro Truck Simulator 2 telemetry.
 * Combined fuel and consumption gauges
 * Break PSI gauge
 * Steering angle indicator which I find useful while trying to reverse
-* Gear indicator ~which can be configured to display crawler gears and multiple reverse gears correctly~
+* Gear indicator, which can be configured to display crawler gears and multiple reverse gears correctly
 * Gauges dim to indicate electricity/engine are off
 * Indicators for Cruise set and speed, low and high beams, parking break, retarder, engine break, check engine light, speed limit, and turn signals
 * Truck make, model, and plate number, and plate numbers for attached trailers
